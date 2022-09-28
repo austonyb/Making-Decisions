@@ -82,7 +82,7 @@ if (temperature >= 80 && rain !== true){
 */
 
 //CODE HERE
-for (i = 0; i<=10; i++){
+for (i = 0; i<10; i++){
   console.log('hello')
 }
 ////////// PROBLEM 6 //////////
@@ -93,6 +93,10 @@ for (i = 0; i<=10; i++){
 
 //CODE HERE
 
+for (i = 1; i<=10; i++){
+  console.log(i)
+}
+
 ////////// PROBLEM 7 //////////
 
 /*
@@ -101,6 +105,9 @@ for (i = 0; i<=10; i++){
 
 //CODE HERE
 
+for (i = 10; i>=0; i--){
+  console.log(i)
+}
 
 ////////// PROBLEM 8 //////////
 
@@ -112,6 +119,11 @@ let passingScore = 7;
 */
 
 //CODE HERE
+
+while (score < 7){
+  console.log(score + ": your score still isn't high enough");
+  score += 1
+}
 
 ////////// INTERMEDIATE PROBLEMS //////////
 
